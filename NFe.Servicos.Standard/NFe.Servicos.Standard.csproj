@@ -23,4 +23,9 @@
 
   <Import Project="..\Shared.NFe.Servicos\Shared.NFe.Servicos.projitems" Label="Shared" />
 
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>..\.snk\q3-3rd.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  
 </Project>

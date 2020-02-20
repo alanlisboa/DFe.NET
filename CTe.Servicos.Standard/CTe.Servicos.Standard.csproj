@@ -15,4 +15,8 @@
 
   <Import Project="..\Shared.CTe.Servicos\Shared.CTe.Servicos.projitems" Label="Shared" />
 
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>..\.snk\q3-3rd.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
 </Project>

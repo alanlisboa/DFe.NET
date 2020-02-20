@@ -15,4 +15,9 @@
     <ProjectReference Include="..\DFe.Classes.Standard\DFe.Classes.Standard.csproj" />
   </ItemGroup>
 
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>..\.snk\q3-3rd.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  
 </Project>
